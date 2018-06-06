@@ -1,0 +1,35 @@
+
+.npReport tr {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.npReport th {
+    background: #F7F7F7;
+    color: #666 !important;
+}
+.npReport td,
+.npReport th {
+    border: 1px solid #E9E9E9 !important;
+    padding: 14px !important;
+}
+.npReport tr:hover {
+    background: #F2F9FD;
+}
+.tableBtn {
+    margin-top: 20px !important;
+    margin-left: 5px;
+    font-weight: 200 !important;
+}
+.tableBtn:hover {
+    opacity: 0.8;
+}
+.npReport input[type="checkbox"] {
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}
+.colIndex {
+    background: #F7F7F7;
+}
